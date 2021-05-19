@@ -1,0 +1,107 @@
+body{
+    background: #808080;
+    padding: 30px 50px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+#ejercicio{
+    border: #000 1px solid;
+    position: relative; 
+    padding: 30px 0;  
+}
+
+#ejercicio .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#ejercicio .row .caja1{
+    background: #5f8ea5;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+#ejercicio .row .caja1 .Fila{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+    align-items: flex-start;
+}
+
+#ejercicio .row .caja1 .Fila .mando button{
+    width: 100px;
+    background: #000;
+    color: #fff;
+}
+
+#ejercicio .row .caja2{
+    background: #C3BAA5;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+#ejercicio .row .caja2 .margen{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ejercicio .row .caja2 #circulo{
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+#ejercicio .row .caja2 #circulo.Rectangulo{
+    width: 200px;
+    border-radius: 0;
+}
+
+#ejercicio .row .caja2 #circulo.Cuadrado{
+    border-radius: 0;
+}
+
+#ejercicio .row .caja2 #circulo.Rombo{
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    transform: rotate(45deg);
+}
+
+#ejercicio .row .caja2 #circulo.Amarillo{
+    background: #fffb00;
+}
+
+#ejercicio .row .caja2 #circulo.Blanco{
+    background: #fff;
+}
+
+#ejercicio .row .caja2 #circulo.Azul{
+    background: #0400ff;
+}
+
+#ejercicio .row .caja2 #circulo.Arriba{
+    transform: translateY(-80px);
+}
+
+#ejercicio .row .caja2 #circulo.Abajo{
+    transform: translateY(80px);
+}
+
+#ejercicio .row .caja2 #circulo.Derecha{
+    transform: translateX(80px);
+}
+
+#ejercicio .row .caja2 #circulo.Izquierda{
+    transform: translateX(-80px);
+}
